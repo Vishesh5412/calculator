@@ -64,21 +64,22 @@ int main() {
             case '^':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("Square=%d\n",a*a );
                 break;
             case '#':
                 printf("Enter an integer: ");
                 scanf("%d", &a);
-                printf("Will be implemented soon...\n");
+                printf("Cube=%d\n",a*a*a);
                 break;
             case 'i':
-                printf("Enter an integer: ");
+         i       printf("Enter an integer: ");
                 scanf("%d", &a);
                 printf("Will be implemented soon...\n");
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
         }
+	p
 
         printf("Do you want to perform another operation [y/N]? ");
         scanf(" %c", &confirm);
