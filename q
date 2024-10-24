@@ -72,9 +72,9 @@ int main() {
                 printf("Cube=%d\n",a*a*a);
                 break;
             case 'i':
-                printf("Enter an integer: ");
-                scanf("%f", &a);
-                printf("%f\n",(float)1/a);
+         i       printf("Enter an integer: ");
+                scanf("%d", &a);
+                printf("%f\n",float(1/n));
                 break;
             default:
                 printf("Invalid operation. Please try again.\n");
